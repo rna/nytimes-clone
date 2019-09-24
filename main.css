@@ -8,3 +8,24 @@ header nav {
     justify-content: space-between;
     align-items: center;
 }
+main {
+    margin: 0 auto;
+    width: 900px;
+    padding: 0 50px 0 50px;
+}
+.gridlayout {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.container {
+    margin: 0 100px 0 100px;
+}
+.container > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
