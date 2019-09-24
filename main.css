@@ -43,3 +43,28 @@ img {
     position: absolute;
     top:150px;
 }
+
+figure {
+    margin: 0;
+}
+aside {
+    position: absolute;
+    top: 1000px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+}
+.side {
+    width: 200px;
+    margin: 50px;
+}
+.side1 {
+    margin-bottom: 300px;
+}
+.side2 img {
+    width: 70px;
+    height: 70px;
+}
+.side2 h4 {
+    border-bottom: 1px solid gray;
+}
