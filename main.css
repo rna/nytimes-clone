@@ -68,3 +68,25 @@ aside {
 .side2 h4 {
     border-bottom: 1px solid gray;
 }
+
+footer {
+    width:90%;
+    margin:0 auto;
+}
+
+#thumbnail-grid {
+    width:60%;
+    float: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap:20px;
+}
+
+.thumbnail{
+    width: 300px;
+}
+
+.thumbnail img {
+    width:300px;
+    height:200px;
+}
