@@ -1,6 +1,8 @@
 body{
     margin:0;
     width: 100%;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header nav {
@@ -72,9 +74,15 @@ aside {
 footer {
     width:90%;
     margin:0 auto;
+    position: relative;
+}
+#more-footer {
+    border-top: 1px solid gray;
+    width: 80%;
+    margin-top: 20px;
 }
 
-#thumbnail-grid {
+.thumbnail-grid {
     width:60%;
     float: left;
     display: grid;
@@ -89,4 +97,40 @@ footer {
 .thumbnail img {
     width:300px;
     height:200px;
+}
+#editor-pick {
+    clear: both;
+    border-top: 1px solid gray;
+    width: 80%;
+    margin-top: 20px;
+}
+aside {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    margin-left: 400px;
+    border-top: 1px solid gray;
+}
+.most {
+    border-top: 0.1px solid lightgray;
+    padding: 20px 0 20px 0;
+    list-style: none;
+    width: 100%;
+}
+aside > h3 {
+    text-align: center;
+}
+a  {
+    text-decoration: none;
+}
+footer > nav {
+    clear: both;
+}
+.ul-container {
+    display: flex;
+    justify-content: space-between;
+}
+.ul-container>ul:last-child {
+border-left: 0.1px solid lightgray;
 }
