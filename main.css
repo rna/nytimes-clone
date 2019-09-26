@@ -17,31 +17,31 @@ header i {
 }
 
 header a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
-header a:hover{
-    text-decoration: underline;
+header a:hover {
+  text-decoration: underline;
 }
 
 header button {
-    background-color: #6288A5;
-    padding: 10px;
-    color: white;
-    font-size: 12px;
-    font-weight: bold;
-    border: none;
-    border-radius: 5px;
+  background-color: #6288a5;
+  padding: 10px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
 }
 header nav {
   position: fixed;
-  width:98%;
-  top:0;
+  width: 98%;
+  top: 0;
   background-color: white;
-  padding-right:100px;
-  z-index:1000;
+  padding-right: 100px;
+  z-index: 1000;
 }
 
 /*Main Page Styles*/
@@ -52,11 +52,11 @@ main {
 }
 
 h1 {
-    text-align: center;
-    font-size: 32px;
-    text-align: left;
-    padding-left:15%;
-    font-style: italic;
+  text-align: center;
+  font-size: 32px;
+  text-align: left;
+  padding-left: 15%;
+  font-style: italic;
 }
 
 main img {
@@ -64,9 +64,10 @@ main img {
   height: 100%;
 }
 
-figcaption, caption{
-    font-size: 15px;
-    color: grey;
+figcaption,
+caption {
+  font-size: 15px;
+  color: grey;
 }
 .container {
   margin: 0 auto;
@@ -81,68 +82,68 @@ figcaption, caption{
 }
 
 .social-icons a {
-    text-decoration: none;
-    color: black;
-    padding-right:5px;
-    font-size: 20px;
+  text-decoration: none;
+  color: black;
+  padding-right: 5px;
+  font-size: 20px;
 }
 
 .social-icons a:hover {
-    color: grey;
+  color: grey;
 }
 
-.below-theory>.social-icons {
+.below-theory > .social-icons {
   all: unset;
   display: block;
   text-align: right;
 }
 
 /*.........End of Social icon styles*/
-.container>h4>a{
-    color: black;
-    text-decoration: underline;
+.container > h4 > a {
+  color: black;
+  text-decoration: underline;
 }
 
-.container>h4>a:hover{
-    text-decoration: none;
+.container > h4 > a:hover {
+  text-decoration: none;
 }
 
 /*Container Paragraphs styles*/
 .container p {
-    font-size: 20px;
-    line-height: 30px;
+  font-size: 20px;
+  line-height: 30px;
 }
 
-.container p>a {
-  color:#6288A5;
+.container p > a {
+  color: #6288a5;
   text-decoration: underline;
 }
 
-.container p>a:hover{
+.container p > a:hover {
   text-decoration: none;
 }
-.container blockquote{
-    font-size: 20px;
-    font-weight: bold;
-    margin: 0;
-    text-align: left;
+.container blockquote {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  text-align: left;
 }
 /* Theory image-text grid styles*/
 .theory {
   width: 20%;
   font-size: 14px;
   padding: 0 5% 15% 0;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 #theory-container {
   position: relative;
 }
 
-#theory-container hr{
-    width: 50px;
-    color:black;
-    margin-left: 0;
+#theory-container hr {
+  width: 50px;
+  color: black;
+  margin-left: 0;
 }
 
 #text-labels {
@@ -160,7 +161,7 @@ figure {
   color: grey;
 }
 .below-theory > small a {
-  color:inherit;
+  color: inherit;
 }
 .below-theory > small a:hover {
   text-decoration: underline;
@@ -168,14 +169,13 @@ figure {
 
 /*Side bar styles*/
 .main-aside {
-    position: absolute;
-    right: 0;
-    top: 1000px;
-    width: 30%;
-    margin-left: 400px;
+  position: absolute;
+  right: 0;
+  top: 1000px;
+  width: 30%;
+  margin-left: 400px;
   display: flex;
   flex-direction: column;
-  
 }
 .side {
   width: 300px;
@@ -192,26 +192,26 @@ figure {
 }
 
 .main-aside figure {
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
 }
 
-.main-aside figure:nth-last-child(1){
-    background-color: lightgray;
-    font-size: 10px;
-    padding: 5px;
+.main-aside figure:nth-last-child(1) {
+  background-color: lightgray;
+  font-size: 10px;
+  padding: 5px;
 }
 .side2 h4 {
   border-bottom: 1px solid gray;
 }
 
 .side2 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 .side2 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Footer Styles*/
@@ -243,13 +243,13 @@ footer {
   width: 300px;
   height: 200px;
 }
-.thumbnail figcaption{
+.thumbnail figcaption {
   text-align: right;
   font-size: 12px;
 }
-.thumbnail p:nth-last-child(1){
+.thumbnail p:nth-last-child(1) {
   font-size: 12px;
-  color:grey;
+  color: grey;
 }
 
 #editor-pick {
@@ -268,11 +268,11 @@ footer aside {
   border-top: 1px solid black;
 }
 
-footer h3>a {
+footer h3 > a {
   text-decoration: none;
-  color:black;
+  color: black;
 }
-footer h3>a:hover{
+footer h3 > a:hover {
   text-decoration: underline;
 }
 .most {
@@ -281,19 +281,19 @@ footer h3>a:hover{
   list-style: none;
   width: 100%;
 }
-footer ul{
+footer ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.most a{
+.most a {
   color: black;
   text-decoration: none;
   font-size: 16px;
 }
 
-.most a:hover{
+.most a:hover {
   color: grey;
 }
 
@@ -301,15 +301,56 @@ footer > nav {
   clear: both;
   border-top-style: double;
   border-color: grey;
-  margin-top:50px;
-  padding-top:20px;
+  margin-top: 50px;
+  padding-top: 20px;
 }
 .ul-container {
   display: flex;
   justify-content: space-between;
+  margin-top: 10px;
 }
 
 .ul-container > ul:last-child {
   border-left: 0.1px solid lightgray;
   padding-left: 10px;
+}
+
+.ul-container a {
+  color: black;
+  text-decoration: none;
+}
+
+.ul-container a:hover {
+  text-decoration: underline;
+}
+
+.ul-container li {
+  padding-bottom: 10px;
+}
+
+.ul-container ul > li:first-child {
+  font-weight: bold;
+}
+
+.ul-container > ul:last-child li:nth-child(-n + 5) {
+  font-weight: bold;
+}
+
+.ul-container > ul:last-child li:nth-last-child(-n + 7) {
+  font-size: 10px;
+}
+
+footer > footer > ul {
+  clear: both;
+  font-size: 10px;
+  color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 30px 0;
+  border-top: 1px solid lightgray;
+}
+
+footer > footer > ul a {
+  text-decoration: none;
+  color: lightgray;
 }
