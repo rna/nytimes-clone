@@ -35,9 +35,18 @@ header button {
     border: none;
     border-radius: 5px;
 }
+header nav {
+  position: fixed;
+  width:98%;
+  top:0;
+  background-color: white;
+  padding-right:100px;
+  z-index:1000;
+}
 
 /*Main Page Styles*/
 main {
+  padding-top: 30px;
   margin: 0 auto;
   width: 75%;
 }
@@ -205,6 +214,7 @@ figure {
     text-decoration: underline;
 }
 
+/* Footer Styles*/
 footer {
   clear: both;
   width: 90%;
@@ -212,8 +222,8 @@ footer {
   position: relative;
 }
 #more-footer {
-  border-top: 1px solid gray;
-  width: 80%;
+  border-top: 1px solid black;
+  width: 78%;
   margin-top: 20px;
 }
 
@@ -233,19 +243,37 @@ footer {
   width: 300px;
   height: 200px;
 }
+.thumbnail figcaption{
+  text-align: right;
+  font-size: 12px;
+}
+.thumbnail p:nth-last-child(1){
+  font-size: 12px;
+  color:grey;
+}
+
 #editor-pick {
   clear: both;
-  border-top: 1px solid gray;
-  width: 80%;
+  border-top: 1px solid black;
+  width: 78%;
   margin-top: 20px;
+  overflow: hidden;
 }
+
 footer aside {
   position: absolute;
   top: 0;
   right: 0;
   width: 20%;
-  margin-left: 400px;
-  border-top: 1px solid gray;
+  border-top: 1px solid black;
+}
+
+footer h3>a {
+  text-decoration: none;
+  color:black;
+}
+footer h3>a:hover{
+  text-decoration: underline;
 }
 .most {
   border-top: 0.1px solid lightgray;
@@ -253,19 +281,35 @@ footer aside {
   list-style: none;
   width: 100%;
 }
-footer aside > h3 {
-  text-align: center;
+footer ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-a {
+
+.most a{
+  color: black;
   text-decoration: none;
+  font-size: 16px;
 }
+
+.most a:hover{
+  color: grey;
+}
+
 footer > nav {
   clear: both;
+  border-top-style: double;
+  border-color: grey;
+  margin-top:50px;
+  padding-top:20px;
 }
 .ul-container {
   display: flex;
   justify-content: space-between;
 }
+
 .ul-container > ul:last-child {
   border-left: 0.1px solid lightgray;
+  padding-left: 10px;
 }
