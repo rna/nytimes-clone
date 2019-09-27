@@ -1,70 +1,373 @@
-body{
-    margin:0;
-    width: 100%;
+body {
+  margin: 0;
+  width: 100%;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+/* Header Styles */
 header nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  border-bottom: 1px solid lightgrey;
+  position: fixed;
+  width: 98%;
+  top: 0;
+  background-color: white;
+  padding-right: 100px;
+  z-index: 1000;
 }
+
+header i {
+  margin-right: 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+footer h3 > a,
+.ul-container a,
+.side2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: black;
+  padding-right: 5px;
+  font-size: 20px;
+}
+
+.most a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.container > h4 > a {
+  color: black;
+}
+
+.container p > a {
+  color: #6288a5;
+}
+
+.container > h4 > a,
+.container p > a,
+header a:hover,
+footer h3 > a:hover {
+  text-decoration: underline;
+}
+
+footer > nav:last-child > ul a {
+  text-decoration: none;
+  color: gray;
+}
+
+.side2 a:hover {
+  text-decoration: underline;
+}
+
+header button {
+  background-color: #6288a5;
+  padding: 10px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Main Page Styles */
 main {
-    margin: 0 auto;
-    width: 75%;
+  padding-top: 30px;
+  margin: 0 auto;
+  width: 75%;
 }
 
-img {
-    width: 100%;
-    height: 100%;
+h1 {
+  font-size: 32px;
+  text-align: left;
+  padding-left: 15%;
+  font-style: italic;
 }
+
+main img {
+  width: 100%;
+  height: 100%;
+}
+
+figcaption,
+#video-caption {
+  font-size: 15px;
+  color: grey;
+}
+
 .container {
-    margin: 0 auto;
-    width: 60%;
+  margin: 0 auto;
+  width: 60%;
 }
+
+/* Start of Social icon styles........ */
 .container > div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.social-icons a:hover,
+.most a:hover {
+  color: grey;
+}
+
+.below-theory > .social-icons {
+  all: unset;
+  display: block;
+  text-align: right;
+}
+
+.ul-container a:hover {
+  text-decoration: underline;
+}
+
+.container > h4 > a:hover {
+  text-decoration: none;
+}
+
+/* Container Paragraphs styles */
+.container p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.container p > a:hover {
+  text-decoration: none;
+}
+
+.container blockquote {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  text-align: left;
+}
+
+/* Theory image-text grid styles */
 .theory {
-    width:20%;
-    font-size: 12px;
-    padding:0 5% 18% 0;
+  width: 20%;
+  font-size: 14px;
+  padding: 0 5% 15% 0;
+  font-family: "Times New Roman", Times, serif;
 }
 
-#theory-container{
-    position: relative;
+#theory-container {
+  position: relative;
+}
+
+#theory-container hr {
+  width: 50px;
+  color: black;
+  margin-left: 0;
 }
 
 #text-labels {
-    display: flex;
-    flex-wrap: wrap;
-    position: absolute;
-    top:150px;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 150px;
 }
 
 figure {
-    margin: 0;
+  margin: 0;
 }
-aside {
-    position: absolute;
-    top: 1000px;
-    right: 0;
-    display: flex;
-    flex-direction: column;
+
+.below-theory > small {
+  color: grey;
 }
+
+.below-theory > small a:hover {
+  text-decoration: underline;
+}
+
+/* Side bar styles */
+.main-aside {
+  position: absolute;
+  right: 0;
+  top: 1000px;
+  width: 30%;
+  margin-left: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
 .side {
-    width: 200px;
-    margin: 50px;
+  width: 300px;
+  margin: 50px;
+  display: block;
 }
+
 .side1 {
-    margin-bottom: 300px;
+  margin-bottom: 300px;
 }
+
 .side2 img {
-    width: 70px;
-    height: 70px;
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
 }
+
+.side1 button {
+  background-color: #6288a5;
+  padding: 10px 60px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+.side1 p {
+  font-size: 13px;
+  color: rgb(102, 102, 102);
+  margin: 8px 0;
+  width: 60%;
+}
+
+.side1 h4 {
+  margin: 0 0;
+  font-size: 18px;
+  width: 60%;
+}
+
+.main-aside figure {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.main-aside figure:nth-last-child(1) {
+  background-color: lightgray;
+  font-size: 10px;
+  padding: 5px;
+}
+
 .side2 h4 {
-    border-bottom: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+/* Footer Styles */
+footer {
+  clear: both;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#more-footer {
+  border-top: 1px solid black;
+  width: 78%;
+  margin-top: 20px;
+}
+
+.thumbnail-grid {
+  width: 60%;
+  float: left;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+}
+
+.thumbnail {
+  width: 300px;
+}
+
+.thumbnail img {
+  width: 300px;
+  height: 200px;
+}
+
+.thumbnail figcaption {
+  text-align: right;
+  font-size: 12px;
+}
+
+.thumbnail p:nth-last-child(1) {
+  font-size: 12px;
+  color: grey;
+}
+
+#editor-pick {
+  clear: both;
+  border-top: 1px solid black;
+  width: 78%;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+footer aside {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  border-top: 1px solid black;
+}
+
+.most {
+  border-top: 0.1px solid lightgray;
+  padding: 20px 0 20px 0;
+  list-style: none;
+  width: 100%;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer > nav {
+  clear: both;
+  border-top-style: double;
+  border-color: grey;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
+.ul-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+footer > nav:last-child > ul {
+  clear: both;
+  font-size: 10px;
+  color: gray;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 30px 0;
+  border-top: 1px solid lightgray;
+}
+
+.ul-container > ul:last-child {
+  border-left: 0.1px solid lightgray;
+  padding-left: 10px;
+}
+
+.ul-container li {
+  padding-bottom: 10px;
+}
+
+.ul-container ul > li:first-child,
+.ul-container > ul:last-child li:nth-child(-n + 5) {
+  font-weight: bold;
+}
+
+.ul-container > ul:last-child li:nth-last-child(-n + 7) {
+  font-size: 10px;
 }
