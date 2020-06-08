@@ -6,6 +6,9 @@ This project clones the article page of the New York Times in order to solidify 
 - Positioning and floating elements using CSS
 - The box model
 
+#### Screenshot
+![Article Screenshot](https://i.imgur.com/HRpvb1C.png)
+
 #### [Assignment Link](https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements)
 
 #### [Project Live Version](https://rna.github.io/nytimes-clone)
